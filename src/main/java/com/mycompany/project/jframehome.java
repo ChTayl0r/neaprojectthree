@@ -58,7 +58,7 @@ public class jframehome extends javax.swing.JFrame {
         });
 
         panelHM.setBackground(new java.awt.Color(238, 238, 238));
-        panelHM.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(72, 58, 58), 5));
+        panelHM.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(72, 58, 58), null));
 
         bttnBkBorrowed.setBackground(new java.awt.Color(238, 238, 238));
         bttnBkBorrowed.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
@@ -128,9 +128,7 @@ public class jframehome extends javax.swing.JFrame {
                     .addComponent(bttnLogOut, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(backgroundwhiteHMLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(backgroundwhiteHMLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(panelHM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(panelHM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(backgroundwhiteHMLayout.createSequentialGroup()
                         .addGap(33, 33, 33)
                         .addComponent(bttnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
